@@ -1,0 +1,13 @@
+A blockchain based architecture for tracking how passes etc are made in football.
+
+Each transaction in a block would end in a out, foul, goal etc. ( Starts from a throw , goalkick etc ) 
+
+Each transaction would be a pass or a travel with a ball ( consisting of starting lat long value and endig lat long value ) 
+
+Iteration 1 would be to build a network graph where each pass id an edge between two players ( p[layers are nodes ) . Each node would have multiple time stamps . 
+
+Process : 
+
+Think through what attributes we need to include in each transaction for a block . 
+How to effectively manage timestamps . 
+Do a proof of concept for a single match . 
